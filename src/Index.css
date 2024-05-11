@@ -1,0 +1,69 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-size: 30%;
+    background-color: rgb(161,102,47);
+}
+
+h1, h3 {
+    color: rgb(112,62,20);
+    text-align: center;
+    
+}
+
+.box-shadow-md {
+    box-shadow: 5px 5px 10px black;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(186,184,108);
+    width: 95%;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 10px black;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(112,62,20);
+    width: 45%;
+}
+
+.text-color {
+    color: rgb(0, 0, 0);
+}
+
+.button-color {
+    background-color:rgb(112,62,20);
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container {
+    margin-top: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.home-image {
+    height: 600px;
+    width: 900px;
+}
+
+.navbar-bottom {
+    height: 50px;
+}
+
+.button-size {
+    height: 40px;
+    width: 100px;
+}
+
+.bg{
+    background-color: transparent;
+}
